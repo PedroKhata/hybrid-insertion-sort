@@ -34,7 +34,7 @@ pip install -r requirements.txt
 ```
 
 **3. Execute o main**
-Navegue até a pasta onde está o executável Python e inicie o painel:
+- Navegue até a pasta onde está o executável Python e inicie o painel:
 ```bash
 cd python
 python main.py
