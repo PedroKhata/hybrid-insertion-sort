@@ -40,6 +40,8 @@ cd python
 python main.py
 ```
 
+## Estrutura do Projeto
+
 ```text
 📦 ED.InsertionSort-H05
  ┣ 📂 data                 
@@ -70,8 +72,8 @@ python main.py
 O design da nossa interface de terminal, incluindo os painéis interativos, tabelas de estatísticas e a paleta de cores construída com a biblioteca `Rich`, foi inspirado por **https://github.com/ReidoBoss/tttui**.
 
 ## (Grupo)
-* **[João Pedro Oliveira]**
-* **[João Filipe]** 
-* **[Lauriano Matos]** 
+* **João Pedro Oliveira**
+* **João Filipe** 
+* **Lauriano Matos** 
 
 *Desenvolvido para a disciplina de Estruturas de Dados - UFPI 2026.*
