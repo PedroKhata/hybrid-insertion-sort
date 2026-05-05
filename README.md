@@ -24,7 +24,7 @@ Como a aplicação compila o código C++ dinamicamente através do Python, o seu
 
 **1. Clone o repositório**
 ```bash
-git clone [https://github.com/user/hybrid-insertion-sort-edbenchmark.git](https://github.com/user/hybrid-insertion-sort-edbenchmark.git)
+git clone (https://github.com/user/hybrid-insertion-sort-edbenchmark.git)
 cd hybrid-insertion-sort-edbenchmark
 ```
 
@@ -71,7 +71,7 @@ python main.py
 
 O design da nossa interface de terminal, incluindo os painéis interativos, tabelas de estatísticas e a paleta de cores construída com a biblioteca `Rich`, foi inspirado por **https://github.com/ReidoBoss/tttui**.
 
-## (Grupo)
+## Grupo
 * **João Pedro Oliveira**
 * **João Filipe** 
 * **Lauriano Matos** 
