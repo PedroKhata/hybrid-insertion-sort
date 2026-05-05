@@ -24,8 +24,8 @@ Como a aplicação compila o código C++ dinamicamente através do Python, o seu
 
 **1. Clone o repositório**
 ```bash
-git clone [https://github.com/user/ED.InsertionSort-H05.git](https://github.com/user/ED.InsertionSort-H05.git)
-cd ED.InsertionSort-H05
+git clone [https://github.com/user/hybrid-insertion-sort-edbenchmark.git](https://github.com/user/hybrid-insertion-sort-edbenchmark.git)
+cd hybrid-insertion-sort-edbenchmark
 ```
 
 **2. Instale as dependências da interface**
