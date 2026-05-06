@@ -129,6 +129,6 @@ if __name__ == "__main__":
         main()
     except KeyboardInterrupt:
         from interface import console, COR_CINZA
-        console.print(f"\n[{COR_CINZA}]Programa encerrado pelo usuário. Até logo![/{COR_CINZA}]")
+        console.print(f"\n[{COR_CINZA}]Programa encerrado pelo usuário.[/{COR_CINZA}]")
         import sys
         sys.exit(0)

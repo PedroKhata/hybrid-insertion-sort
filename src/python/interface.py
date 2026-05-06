@@ -71,12 +71,17 @@ def mostrar_painel_mensagem(mensagem, cor="bold green"):
 
 def aguardar_enter():
     """Pausa simples"""
+    import sys
+    
+    # Limpa qualquer tecla fantasma no buffer
+    if sys.platform == "win32":
+        import msvcrt
+        while msvcrt.kbhit():
+            msvcrt.getch()
+            
     try:
-        Prompt.ask(f"[{COR_CINZA}]Pressione Enter para voltar ao menu[/{COR_CINZA}]")
+        Prompt.ask(f"\n[{COR_CINZA}]Pressione Enter para voltar ao menu[/{COR_CINZA}]")
     except KeyboardInterrupt:
-        # Se o usuário apertar Ctrl+C ou houver lixo no buffer do Windows, 
-        # o programa ignora o erro silenciosamente e volta para o menu normal.
-        print("\n")
         pass
 
 def mostrar_estatisticas(tamanho_base: int, execucoes: int, tempo_python: float, tempo_cpp: float) -> None:
