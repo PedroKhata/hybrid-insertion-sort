@@ -4,7 +4,7 @@ class Node:
     """
     def __init__(self, nome):
         self.nome = nome
-        self.prox = None # Ponteiro para o próximo nó
+        self.prox = None # Ponteiro para o próximo node
 
 class ListaEncadeada:
     """
@@ -12,7 +12,7 @@ class ListaEncadeada:
     """
     def __init__(self):
         self.inicio = None
-        self.fim = None  # Ponteiro de cauda para otimizar inserções
+        self.fim = None  # Ponteiro de cauda tail para otimizar inserções
         self.tamanho = 0
 
     def adicionar(self, nome):
@@ -21,7 +21,7 @@ class ListaEncadeada:
         """
         novo = Node(nome)
          
-        # Se a lista estiver vazia, o início e o fim apontam para o novo nó
+        # Se a lista estiver vazia, o início e o fim apontam para o novo node
         if self.inicio is None:
             self.inicio = novo
             self.fim = novo
@@ -40,7 +40,7 @@ class ListaEncadeada:
 
         if other.inicio is None:
             other.inicio = novo
-            other.fim = novo # Mantém a integridade da cauda na nova lista
+            other.fim = novo 
             other.tamanho += 1
             return
 
@@ -57,7 +57,7 @@ class ListaEncadeada:
         novo.prox = atual.prox
         atual.prox = novo   
         
-        # Se o elemento foi inserido no finalzinho, atualiza a cauda
+        # Se o elemento foi inserido no final atualiza o fim
         if novo.prox is None:
             other.fim = novo
             
