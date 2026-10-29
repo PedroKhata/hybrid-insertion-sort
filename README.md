@@ -20,26 +20,6 @@ Como a aplicação compila o código C++ dinamicamente através do Python, o seu
 2. **Compilador g++** (GNU Compiler Collection)
 3. Biblioteca Python `rich` para a interface gráfica no terminal
 
-## Como Executar
-
-**1. Clone o repositório**
-```bash
-git clone (https://github.com/user/hybrid-insertion-sort.git)
-cd hybrid-insertion-sort
-```
-
-**2. Instale as dependências da interface**
-```bash
-pip install -r requirements.txt
-```
-
-**3. Execute o main**
-- Navegue até a pasta onde está o executável Python e inicie o painel:
-```bash
-cd python
-python main.py
-```
-
 ## Estrutura do Projeto
 
 ```text
